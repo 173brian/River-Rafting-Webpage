@@ -6,7 +6,7 @@
 }
 nav a {
     text-align: center;
-    color: #040037;
+    color: #09ff00;
     text-decoration: none;
     padding: 35px;
 }    
@@ -29,7 +29,7 @@ main section{
 }
 body {
     background-color: #fcfbfb;
-    font-family: "Nabla", Helvetica, sans-serif;   
+    font-family: Helvetica, "Nabla", sans-serif;   
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -40,7 +40,7 @@ header {
     grid-template-columns: 150px auto;
 }
 nav a:hover {
-    background-color: rgba(0, 0, 0, 0.092);
+    background-color: rgba(255, 255, 255, 0.092);
     color: #646f7a;
 }
 .book, .join {
@@ -181,6 +181,59 @@ home-grid {
 .card-img:hover {
     opacity: .6;
     transform: scale(1.1);
+}
+.info-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+.msg2 {
+    background-color: rgba(0, 0, 0, 0.092);
+    padding: 35px;
+    grid-column: 1;
+    grid-row: 1;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.msg3 {
+    background-color: rgba(0, 0, 0, 0.092);
+    padding: 35px;
+    grid-column: 2;
+    grid-row: 2;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.msg4 {
+    background-color: rgba(0, 0, 0, 0.092);
+    padding: 35px;
+    grid-column: 1;
+    grid-row: 3;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.msg5 {
+    background-color: rgba(0, 0, 0, 0.092);
+    padding: 35px;
+    grid-column: 2;
+    grid-row: 4;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.desolation {
+    grid-column: 1;
+    grid-row: 2;
+    justify-self: center;
+}
+.Salmon_river {
+    grid-column: 2;
+    grid-row: 1;
+    justify-self: center;
+}
+.Grand_canyon {
+    grid-column: 2;
+    grid-row: 3;
+    justify-self: center;
+}
+.rapids2 {
+    grid-column: 1;
+    grid-row: 4;
+    justify-self: center;
 }
 
 @media screen and (max-width: 900px) {
